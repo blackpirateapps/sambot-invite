@@ -66,7 +66,7 @@ input:focus {
     border: none;
 }
 input::placeholder {
-    color: hsl(40, 4%, 40%);
+    color: rgb(139, 135, 128);
 }
 i {
     color: #eb5e28;
