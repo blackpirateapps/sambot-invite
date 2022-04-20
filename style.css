@@ -1,0 +1,91 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: #252422;
+}
+.container {
+    background-color: #fffcf2;
+    color: #f2e9e4;
+    padding: 0.5rem;
+    border-radius: 35px;
+    min-height: 5rem;
+    max-width: 400px;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 3em;
+    margin-top: 30vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 0 0 25px rgba(204, 197, 185, 0.5);
+}
+h1 {
+    text-align: center;
+    top: 0;
+    font-family: 'Libre Baskerville', serif;
+    color: #403d39;
+    bottom: 0;
+    margin-bottom: 0.3rem;
+
+}
+@media (min-width: 960px) {
+    .container {
+    margin-left: 35vw;
+    }
+}
+button {
+    display: block;
+    margin: 0;
+    background-color: #eb5e28;
+    color: #fffcf2;
+    text-align: center;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+}
+p {
+    color: #403d39;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.3rem;
+}
+input {
+    width: 20em;
+    height: 2.5em;
+    border-radius: 12px;
+    outline: none;
+    background-color: #ccc5b9;
+    border: none;
+    padding: 0.7rem;
+    margin-bottom: 1.3rem;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+input::placeholder {
+    color: #403d39;
+}
+i {
+    color: #eb5e28;
+    font-style: normal;
+}
+.success {
+    padding: 1.3rem;
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+    color: #eb5e28;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1.success {
+    color: #252422;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
