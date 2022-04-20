@@ -108,11 +108,17 @@ h3 {
 
 }
 .rules {
-    width: 75%;
+    width: 85%;
 }
 .label {
     margin-bottom: 1.5rem;
     text-align: center;
 
 
+}
+@media (min-width: 940px) {
+    .rules {
+        width: 75%;
+    }
+    
 }
