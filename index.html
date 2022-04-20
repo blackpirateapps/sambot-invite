@@ -10,11 +10,25 @@
 <body>
     <div class="container">
         <h1>Invite Bot to Your <i>WhatsApp</i> Group</h1>
-        <p>
-        Enter your Invite Link below.
+       
+        <div class="rules">
+        
+        <h3>Rules</h3>
+        <ul>
+            <li>Need Minimum <strong>25 members.</strong></li>
+            <li>If you <strong>spam or exploit</strong> the bot, it would leave your group automatically</li>
+            <li>Keep the <strong>NSFW in limit</strong></li>
+        </ul>
+    </div>
+        <p><strong>
+        Enter your Invite Link below.</strong>
         </p>
         <form name="whatsapp-link" method="POST" data-netlify="true" action="/success/">
             <input type="url" name="group-link" placeholder="https://chat.whatsapp.com/abcdefghijklmnopqrstuvwxyz">
+            <div class="terms">
+            <p class="label">By clicking Invite you agree
+                <br> to follow the rules.</p> 
+        </div>  
             <center>
             <button type="submit">Invite</button>
         </center>
