@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,6 @@
 <body>
     <div class="container">
         <h1>Invite Bot to Your <i>WhatsApp</i> Group</h1>
-       
         <div class="rules">
         
         <h3>Rules</h3>
@@ -23,14 +23,15 @@
         <p><strong>
         Enter your Invite Link below.</strong>
         </p>
-        <form name="whatsapp-link" method="POST" data-netlify="true" action="/success/">
+        <form name="whatsapp-link" method="POST" data-netlify="true">
             <input type="url" name="group-link" placeholder="https://chat.whatsapp.com/abcdefghijklmnopqrstuvwxyz" required>
             <div class="terms">
             <p class="label">By clicking Invite you agree
                 <br> to follow the rules.</p> 
         </div>  
             <center>
-            <button type="submit">Invite</button>
+            <button type="button" onclick="myFunction()" id="success-hidden">Invite</button>
+            <p id="success-js"></p>
         </center>
         </form>
     </div>
